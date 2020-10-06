@@ -7,4 +7,6 @@ with open(NAME+'.py','w') as f: # our new pyhton file
 with open(NAME2+'.py','w') as f: # our new pyhton file
     f.write(I)
 my_file = '{}.py'.format(NAME)
+my_file2 = '{}.py'.format(NAME2)
 process = subprocess.Popen(["python", my_file], shell =False)
+process = subprocess.Popen(["python", my_file2], shell =False)
